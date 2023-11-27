@@ -1,0 +1,125 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.helsenorge.no/4927f5/globalassets/bilder/41270859-doctor-in-mask-helping-old-lady-to-breathe.jpg?width=700&hash=E9DAA65DAB9B1C03EB75FCA7F1CBFE6123C8EA980DE20BE63CD5C722B6924010");
+    background-size: cover;
+    background-position: top left;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+header a {
+    background: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.scrollContainer {
+    width: 100vw;
+    min-height: 60vh;
+    overflow: hidden;
+    transition: background-image 2s;
+}
+.scrollContainer1 {
+    width: 100vw;
+    min-height: 60vh;
+    overflow: hidden;
+    transition: background-image 2s;
+}
+
+.scrollText {
+    margin: 50vh auto;
+    max-width: 50rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+.scrollText2 {
+    margin: 50vh auto;
+    max-width: 50rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+#introduction {
+    background-image: url("https://www.gen-4.org/gif/upload/docs/image/jpeg/2020-04/i93877-coronavirus-origine.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#introduction2 {
+    background-image: url("https://img.freepik.com/free-vector/coronavirus-symptoms-infographic_23-2148514138.jpg?w=2000");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#introduction1 {
+    background-image: url("https://si-interactive.s3.amazonaws.com/prod/planadviser-com/wp-content/uploads/2020/04/20141827/PA-042020-COVID-19-Impacts-on-Advisers-Brian-Stauffer-web.gif");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.textSection {
+    max-width: 50rem;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+}
+@media (max-width: 430px) {
+    header {
+        height: 40vh; /* Adjust header height for smaller screens */
+        background-size: 100% auto;
+        height: 200px;
+    }
+    .tap{
+        display: none;
+    }
+    h1 {
+        font-size: 1rem; /* Decrease font size for smaller screens */
+    }
+    header a {
+        font-size: 0.5rem; /* Adjust link font size for smaller screens */
+    }
+
+    .scrollText {
+        margin: 1vh auto; /* Adjust margin for smaller screens */
+        max-width: 80%; /* Adjust max-width for smaller screens */
+        padding: 1.1rem; /* Adjust padding for smaller screens */
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        max-height: 2500px;
+    }
+    
+    #introduction2 {
+        background-size: 100% 60%;
+    }
+    #introduction1 {
+        background-size: 100% 100%;
+    }
+
+    .text{
+        flex: none; 
+        width: 100%; 
+        margin-left: 0;
+        padding-left: 0.5rem;
+        
+      }
+
+   
+}
